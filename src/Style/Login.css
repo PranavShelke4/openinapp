@@ -143,6 +143,10 @@
     text-decoration: none;
 }
 
+.social-icons2{
+    display: none;
+}
+
 
 
 /* Responsive Styles for Mobile Devices */
@@ -187,6 +191,7 @@
     }
 
     .social-icons2 {
+        display: block;
         width: 100%;
         text-align: center;
         margin-top: 19%;
