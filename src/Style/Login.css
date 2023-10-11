@@ -179,7 +179,8 @@
         box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
         border-radius: 10px;
         width: 100%;
-        margin-top: -43%;
+        margin-top: 0%;
+        padding: 3% 2%;
     }
 
     /* LeftSide adjustments for Mobile */
@@ -189,15 +190,15 @@
     }
 
     .logo, .title {
-        margin-top: 3%;
+        margin-top: 0%;
     }
 
     .social-icons2 {
         display: block;
         width: 100%;
         text-align: center;
-        margin-top: 5%;
-        margin-bottom: -60%;
+       position: absolute;
+       bottom: 5%;
     }
 
     .social-icon {
@@ -223,6 +224,7 @@
     .login-input {
         width: 94%;
         height: 1.5rem;
+        border: #000000 1px solid;
     }
 
     .login-with {
@@ -234,7 +236,7 @@
     .sign-in-with {
         width: 80%;
         border: black 1px solid;
-        margin-top: 2%;
+        margin-top: 3%;
     }
 
     .login-submit-btn {
