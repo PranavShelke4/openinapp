@@ -3,8 +3,8 @@
 .sidebar {
   background: linear-gradient(180deg, #4285f4 0%, #3c83f9 100%);
   color: white;
-  width: 250px;
-  height: 100vh;
+  min-width: 17%;
+  height: 1000px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -23,8 +23,8 @@
 }
 
 .bottom-nav-menue {
-  position: absolute;
-  bottom: -5%;
+  position: relative;
+  bottom: -60%;
 }
 
 .other-nav-menue {

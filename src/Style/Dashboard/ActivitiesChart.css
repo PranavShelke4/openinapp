@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@700&display=swap');
+
+.ActivitiesChart {
+  margin-top: 3%;
+  padding: 0% 2%;
+  border-radius: 10px;
+  box-shadow: 3px 4px 11px 0px rgba(98, 98, 98, 0.15);
+  background-color: white;
+  border: 2px solid rgba(98, 98, 98, 0.15);
+  max-width: 99%;
+}
+
+.Activities-Chart-title {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.months {
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; /* Fixed font-size to font-weight */
+  color: rgba(133, 133, 133, 1);
+  margin-bottom: 2%; /* Adding some space before the bar chart */
+}
+
+.chart-info {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: -67%;
+}
+
+.chart-info p {
+  margin-right: 50% !important;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+}

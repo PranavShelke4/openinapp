@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+
+.TopProductChart {
+  background-color: white;
+  padding: 2% 3%;
+  border-radius: 10px;
+  width: 470px;
+  height: 256px;
+  box-shadow: 3px 4px 11px 0px rgba(98, 98, 98, 0.15);
+  border: 2px solid rgba(98, 98, 98, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: -2%;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.chart-header h2 {
+  font-weight: 600;  /* Assuming you wanted a semi-bold weight */
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.chart-header span {
+  font-size: 0.9rem;
+  color: #777;  /* Slightly muted text for the date range */
+}
+
+.Doughnut_chart{
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.legend {
+  margin-left: 10%;
+  width: 18rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.legend-item p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.legend-item p span{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: rgba(133, 133, 133, 1);
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;  /* Circular color indicators */
+}

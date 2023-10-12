@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+.AddProfile{
+    background-color: white;
+    padding: 2% 3%;
+    border-radius: 10px;
+    width: 480px;
+    height: 256px;
+    box-shadow: 3px 4px 11px 0px rgba(98, 98, 98, 0.15);
+    border: 2px solid rgba(98, 98, 98, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 2%;
+    margin-right: -2%;
+}
+
+.AddProfile span{
+    color: rgba(133, 133, 133, 1);
+    font-size: 1rem;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+.plus_icon{
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 100%;
+    padding: 3%;
+    width: 50px;
+    height: 50px;
+}
+
+.plus_icon img{
+    width: 100%;
+    height: 100%;
+}
