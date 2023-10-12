@@ -10,7 +10,7 @@ function MainSidebar() {
   return (
     <div className="sidebar">
       <h1>Board.</h1>
-      <div>
+      <div style={{marginTop: "15%"}}>
         <span className="nav-menue">
           <img
             src={dashbord_icon}
