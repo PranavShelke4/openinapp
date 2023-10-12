@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+.Data-Cards {
+  display: flex;
+  gap: 1.1rem;
+}
+
+.card {
+  box-shadow: 3px 4px 11px 0px rgba(98, 98, 98, 0.15);
+  background-color: white;
+  padding: 2%;
+  border-radius: 10px;
+  width: 238px;
+  height: 120px;
+}
+
+.card-icon {
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  padding: 5%;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.card-title {
+  width: 10rem;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  margin-bottom: -5%;
+}
+
+.card-valu {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card-pro-loss {
+  display: flex;
+}
+
+#card-text {
+    position: relative;
+    left: 50%;
+  }
+
+.card-text {
+  background-color: rgba(233, 249, 235, 1);
+  color: rgba(74, 209, 95, 1);
+  font-size: 1rem;
+  font-family: "Figtree", sans-serif;
+  padding: 0.3rem;
+  border-radius: 10px;
+  position: relative;
+  right: -230%;
+}
