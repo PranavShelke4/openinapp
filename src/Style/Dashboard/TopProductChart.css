@@ -24,14 +24,14 @@
 }
 
 .chart-header h2 {
-  font-weight: 600;  /* Assuming you wanted a semi-bold weight */
+  font-weight: 600;  
   font-size: 1.2rem;
   margin: 0;
 }
 
 .chart-header span {
   font-size: 0.9rem;
-  color: #777;  /* Slightly muted text for the date range */
+  color: #777;  
 }
 
 .Doughnut_chart{
@@ -65,5 +65,5 @@
   width: 20px;
   height: 20px;
   margin-right: 10px;
-  border-radius: 50%;  /* Circular color indicators */
+  border-radius: 50%; 
 }
