@@ -272,4 +272,7 @@ form button[type="submit"] {
   .AddProfile {
     width: 100%;
   }
+  .modal-content {
+    width: 90%
+  }
 }
