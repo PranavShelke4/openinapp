@@ -65,6 +65,7 @@
   display: flex;
   justify-content: space-between;
   gap: 1.1rem;
+
   width: 100% !important;
 }
 @media (max-width: 867px) {
@@ -79,7 +80,6 @@
   .card{
     width: 30%!important;
     min-width: none;
-
   }
 }
 @media (max-width: 500px) {

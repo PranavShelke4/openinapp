@@ -8,7 +8,6 @@ import Total_Like from "../../Assets/Icons/Total_Likes_icon.svg";
 function DataCards() {
   return (
     <div className="Data-Cards">
-      <div className="card-duo">
         <div className="card">
           <div
             className="card-icon"
@@ -38,9 +37,7 @@ function DataCards() {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="card-duo">
         <div className="card">
           <div
             className="card-icon"
@@ -68,7 +65,6 @@ function DataCards() {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 }
