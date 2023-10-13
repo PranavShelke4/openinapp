@@ -9,15 +9,15 @@ import user_icon from "../../Assets/Icons/user_icon.svg";
 function MainSidebar() {
   return (
     <div className="sidebar">
-      <h1>Board.</h1>
-      <div style={{marginTop: "15%"}}>
+      <h1 className="board">Board.</h1>
+      <div className="nav-menues" style={{marginTop: "15%"}}>
         <span className="nav-menue">
           <img
             src={dashbord_icon}
             alt="Schedules"
             style={{ marginRight: "6%", marginLeft: "-3%" }}
           />
-          Dashboard
+          <span className="nav-menue-title">Dashboard</span>
         </span>
         <span className="nav-menue">
           <img
@@ -25,7 +25,7 @@ function MainSidebar() {
             alt="Schedules"
             style={{ marginRight: "6%", marginLeft: "-3%" }}
           />
-          Transactions
+          <span className="nav-menue-title">Transactions</span>
         </span>
         <span className="nav-menue">
           <img
@@ -33,7 +33,7 @@ function MainSidebar() {
             alt="Schedules"
             style={{ marginRight: "6%", marginLeft: "-3%" }}
           />
-          Schedules
+          <span className="nav-menue-title">Schedules</span>
         </span>
         <span className="nav-menue">
           <img
@@ -41,7 +41,7 @@ function MainSidebar() {
             alt="Schedules"
             style={{ marginRight: "6%", marginLeft: "-3%" }}
           />
-          Users
+          <span className="nav-menue-title">Users</span>
         </span>
         <span className="nav-menue">
           <img
@@ -49,7 +49,7 @@ function MainSidebar() {
             alt="Schedules"
             style={{ marginRight: "6%", marginLeft: "-3%" }}
           />
-          Settings
+          <span className="nav-menue-title">Settings</span>
         </span>
       </div>
       <div className="bottom-nav-menue">
