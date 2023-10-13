@@ -268,3 +268,8 @@ form button[type="submit"] {
   border-radius: 50%;
   display: inline-block;
 }
+@media (max-width: 867px) {
+  .AddProfile {
+    width: 100%;
+  }
+}
