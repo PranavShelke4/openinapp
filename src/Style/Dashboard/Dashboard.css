@@ -1,0 +1,12 @@
+.dashbord-right-side{
+    padding: 0 3%;
+    margin-left: 2%;
+    width: 74%;
+}
+
+@media (max-width: 767px){
+    .dashbord-right-side{
+        width: 70%;
+        margin-left: 20%;
+    }
+}
