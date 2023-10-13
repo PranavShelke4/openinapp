@@ -35,3 +35,14 @@
 .bell_icon {
   margin-right: 10%;
 }
+@media (max-width: 867px) {
+  .right-side {
+
+    position: relative;
+  }
+  .heroSection{
+    display: flex;
+    flex-direction: column;
+  }
+}
+

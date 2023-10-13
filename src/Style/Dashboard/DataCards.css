@@ -60,3 +60,34 @@
   position: relative;
   right: -190%;
 }
+.card-duo{
+  display: inline;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.1rem;
+  width: 100% !important;
+}
+@media (max-width: 867px) {
+  .Data-Cards {
+    display: flex;
+    flex-direction: column;
+    width: 30%!important;
+  }
+  .card-duo{
+    width: 50%!important;
+  }
+  .card{
+    width: 30%!important;
+    min-width: none;
+
+  }
+}
+@media (max-width: 500px) {
+  .card-duo{
+    width: 50%!important;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 15%;
+  }
+}

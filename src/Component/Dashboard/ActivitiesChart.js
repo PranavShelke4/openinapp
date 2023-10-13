@@ -26,7 +26,7 @@ const options = {
   responsive: true,
   plugins: {
     legend: {
-        display: false,
+      display: false,
     },
   },
   scales: {
@@ -66,7 +66,7 @@ function ActivitiesChart() {
     <div className="ActivitiesChart">
       <h1 className="Activities-Chart-title">Activities Chart</h1>
       <br />
-      <div style={{ display: "flex", alignItems: "center", marginTop: "-4%" }}>
+      <div className="chart-top" style={{ display: "flex", alignItems: "center", marginTop: "-4%" }}>
         <p className="months">May - June 2021</p>
         <div className="chart-info">
           <p>
@@ -79,7 +79,7 @@ function ActivitiesChart() {
           </p>
         </div>
       </div>
-      <Bar options={options} data={data} height={100} />
+      <Bar className="bar-chart" options={options} data={data} height={100} />
     </div>
   );
 }

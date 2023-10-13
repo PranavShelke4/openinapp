@@ -68,3 +68,18 @@
   margin-right: 10px;
   border-radius: 50%; 
 }
+@media (max-width: 867px) {
+  .Data-Cards {
+    display: flex;
+    flex-direction: column;
+    width: 30%!important;
+  }
+  .card-duo{
+    width: 50%!important;
+  }
+  .card{
+    width: 30%!important;
+    min-width: none;
+
+  }
+}

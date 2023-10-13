@@ -9,7 +9,7 @@ import AddProfile from "../Component/Dashboard/AddProfile";
 function Dashboard() {
   return (
     <div style={{display: "flex", padding: "2%", backgroundColor: "rgba(248, 250, 255, 1)"}}>
-      <MainSidebar />
+      {/* <MainSidebar /> */}
       <div style={{padding: "0 3%", marginLeft: "2%", width: "74%"}}>
         <HeroSection />
         <DataCards />
