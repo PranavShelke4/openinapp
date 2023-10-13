@@ -15,7 +15,7 @@ function Dashboard() {
         <HeroSection />
         <DataCards />
         <ActivitiesChart />
-        <div style={{display: "flex", padding: "2%"}}>
+        <div className="down-charts" style={{display: "flex", padding: "2%"}}>
           <PieChart />
           <AddProfile />
         </div>

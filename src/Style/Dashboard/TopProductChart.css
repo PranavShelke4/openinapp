@@ -82,4 +82,18 @@
     min-width: none;
 
   }
+  .down-charts{
+    flex-direction: column;
+  }
+  .TopProductChart{
+    height: 20rem;
+    width: 100%;
+  }
+  
+}
+@media (max-width: 567px) {
+  .Doughnut_chart{
+    width: 60%!important;
+    height: 40% !important;
+  }
 }
