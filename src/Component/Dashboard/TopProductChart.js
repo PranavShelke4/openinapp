@@ -37,7 +37,7 @@ function TopProductChart() {
         <h2>Top products</h2>
         <span>May - June 2021</span>
       </div>
-      <div style={{ display: "flex", alignItems: "center" }}>
+      <div className="graph-info" style={{ display: "flex", alignItems: "center" }}>
         <Doughnut options={options} data={data} className="Doughnut_chart" />
         <div className="legend">
           <div className="legend-item">

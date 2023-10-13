@@ -34,21 +34,23 @@
 }
 
 @media (max-width: 867px) {
+  .ActivitiesChart{
+    width: 97% !important;
+    margin-bottom: 4%;
+  }
   .bar-chart {
-    width: 15rem;
+    width: 100%;
   }
   .chart-info p {
     margin-right: 10% !important;
-
   }
   .chart-info {
-    margin-right: 0% !important;
-    right: 0;
-    padding: 10%;
-    margin-top: 5%;
+    position: static;
+    margin-top: -10%;
+    margin-left: 12%;
   }
   .months {
-    margin-bottom: 0;
+    margin-top: -8%;
   }
   .chart-top {
     width: 20rem;

@@ -43,12 +43,8 @@
 
 .card-pro-loss {
   display: flex;
+  gap: 0.8rem;
 }
-
-#card-text {
-    position: relative;
-    left: 50%;
-  }
 
 .card-text {
   background-color: rgba(233, 249, 235, 1);
@@ -57,37 +53,20 @@
   font-family: "Figtree", sans-serif;
   padding: 0.3rem;
   border-radius: 10px;
-  position: relative;
-  right: -190%;
-}
-.card-duo{
-  display: inline;
-  display: flex;
-  justify-content: space-between;
-  gap: 1.1rem;
-  width: 100% !important;
 }
 @media (max-width: 867px) {
   .Data-Cards {
     display: flex;
     flex-direction: column;
-    width: 30%!important;
+    width: 100%;
+    gap: 0.5rem;
+    margin-left: 7%;
   }
-  .card-duo{
-    width: 50%!important;
+  .card {
+    width: 100%;
   }
-  .card{
-    width: 30%!important;
-    min-width: none;
+  .card-text{
+    margin-left: 100%;
+  }
+}
 
-  }
-}
-@media (max-width: 500px) {
-  .card-duo{
-    width: 50%!important;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding: 15%;
-  }
-}

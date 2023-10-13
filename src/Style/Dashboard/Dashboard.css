@@ -6,7 +6,8 @@
 
 @media (max-width: 767px){
     .dashbord-right-side{
-        width: 70%;
-        margin-left: 20%;
+        width: 78% !important;
+        margin-left: 15%;
+        overflow-x: hidden;
     }
 }

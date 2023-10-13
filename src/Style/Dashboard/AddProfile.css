@@ -270,6 +270,17 @@ form button[type="submit"] {
 }
 @media (max-width: 867px) {
   .AddProfile {
+    margin-left: -2%;
     width: 100%;
+    margin-bottom: 4%;
+  }
+  .modal-content{
+    width: 90%;
+    padding-bottom: 5%;
+  }
+  .profile-card img {
+    cursor: pointer;
+    position: relative;
+    left: 35%;
   }
 }
